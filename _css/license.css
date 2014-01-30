@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#mainContent .twelvecol img{
+	padding-bottom: 20px;
+}
+
+#mainContent .twelvecol{
+	text-align: center;
+}
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+#mainContent{
+	padding-bottom: 12px;
+}
+
+#mainContent p{
+	text-align: center;
+}
+
+}

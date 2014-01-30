@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#banner{
+	text-align: center;
+}
+
+.question{
+	font-weight: bold;
+	font-style: italic;
+	margin-top: 12px;
+}
+
+#ombudsman ul{
+	margin-left: 20px;
+	margin-top: 12px;
+}
+
+#ombudsman ul li p{
+	margin-bottom: 0;
+}
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+#mainContent{
+	padding-bottom: 12px;
+}
+
+#ombudsman p{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#ombudsman ul{
+	margin-left: 30px;
+}
+
+#ombudsman > ul, #ombudsman > p{
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+}

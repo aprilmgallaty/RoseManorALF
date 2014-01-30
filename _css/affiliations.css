@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#mainContent p{
+	line-height: 28px;
+}
+
+.memberImg{
+	text-align: center;	
+}
+
+.memberText p{
+	/* Font size is in smallFonts.css, mediumFonts.css, and largeFonts.css */
+	/* font-size: 20px; */
+}
+
+.memberTitle{
+	font-weight: bold;
+}
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+#mainContent{
+	padding-bottom: 12px;
+}
+
+.memberText{
+	text-align: center;
+}
+
+}

@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* CSS Document */
+
+p{
+	font-size: 14px;
+}
+
+#mainContent h3{
+	font-size: 30px;
+}
+
+h4{
+	font-size: 14px;
+}
+
+.memberText p{
+	font-size: 20px;
+}

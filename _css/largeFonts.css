@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* CSS Document */
+
+p{
+	font-size: 18px;
+}
+
+#mainContent h3{
+	font-size: 36px;
+}
+
+h4{
+	font-size: 18px;
+}
+
+.memberText p{
+	font-size: 24px;
+}
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+p{
+	font-size: 14px;
+}
+
+#mainContent h3{
+	font-size: 20px;
+}
+
+h4{
+	font-size: 14px;
+}
+
+.memberText p{
+	font-size: 20px;
+}
+
+}

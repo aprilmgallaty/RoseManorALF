@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/* CSS Document */
+
+input, textarea { 
+	padding: 9px;
+	border: solid 1px #E5E5E5;
+	outline: 0;
+	font: normal 13px/100% Verdana, Tahoma, sans-serif;
+	background: #FFFFFF url('bg_form.png') left top repeat-x;
+	background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+	background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+	box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	}
+
+input {
+	width: 30%;
+}
+
+textarea { 
+	height: 150px;
+	line-height: 150%;
+	width: 90%;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus { 
+	border-color: #C9C9C9; 
+	-webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;
+	}
+
+.form label { 
+	margin-left: 10px; 
+	color: #000; 
+	}
+
+.form p{
+	margin-bottom: 12px;
+}
+
+.submit input {
+	border-top: 1px solid #f96e75;
+	border-bottom: 1px solid #f96e75;
+	background: #fab1b3;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f96e75), to(#fab1b3));
+	background: -webkit-linear-gradient(top, #f96e75, #fab1b3);
+	background: -moz-linear-gradient(top, #f96e75, #fab1b3);
+	background: -ms-linear-gradient(top, #f96e75, #fab1b3);
+	background: -o-linear-gradient(top, #f96e75, #fab1b3);
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	box-shadow: rgba(0,0,0,1) 0 1px 0;
+	text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: middle;
+	text-align: center;
+	margin: 7px 0;
+}
+
+.submit input:hover{
+	border-top-color: #d1b36c;
+	background: #d1b36c;
+	background: -webkit-gradient(linear, left top, left bottom, from(#d1b36c), to(#fcdb8d));
+	background: -webkit-linear-gradient(top, #d1b36c, #fcdb8d);
+	background: -moz-linear-gradient(top, #d1b36c, #fcdb8d);
+	background: -ms-linear-gradient(top, #d1b36c, #fcdb8d);
+	background: -o-linear-gradient(top, #d1b36c, #fcdb8d);
+	color: #000000;
+	font-weight: bold;
+}
+
+.submit input:active{
+	border-top-color: #cb9518;
+	background: #cb9518;
+}
+
+#map{
+	width: 425px;
+	margin: 0 auto;
+}
+
+#thanks:target{
+	display: inline;
+}
+
+#thanks{
+	display: none;
+}
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+#mainContent{
+	padding-bottom: 12px;
+}
+
+.form p{
+	margin-left: 12px;
+}
+
+.form label{
+	font-size: 12px;
+}
+
+.form input{
+	width: 90%;
+}
+
+.submit input{
+	width: 95%;
+}
+
+#mapcontainer{
+	display: none;
+}
+
+}

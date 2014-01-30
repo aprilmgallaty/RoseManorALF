@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#mainContent ul{
+	margin-left: 20px;	
+}
+
+#mainContent ul li p{
+	margin-bottom: 0;
+}
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+#mainContent{
+	padding-top: 6px;
+	padding-bottom: 18px;
+}
+
+#mainContent p{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#mainContent ul{
+	margin-left: 30px;
+}
+
+#mainContent > ul, #mainContent > p{
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+}
